@@ -554,13 +554,15 @@ URL-REGEX,^https?:\/\/app\.variflight\.com\/v\d\/advert\/
 
 # G
 # > Google
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(oad|ctier)
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
-URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
+URL-REGEX,^URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(oad|ctier)
+>>>>>>>-HEAD
+,^https?URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
+>>>>>>>+master
+com\/api\/stats\/.+adformat
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
 # > Gofun
