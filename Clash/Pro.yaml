@@ -661,6 +661,7 @@ Rule:
 - DOMAIN-SUFFIX,tvb.com,GlobalMedia
 # > Netflix
 # USER-AGENT,Argo*,GlobalMedia
+- DOMAIN-SUFFIX,fast.com,GlobalMedia
 - DOMAIN-SUFFIX,netflix.com,GlobalMedia
 - DOMAIN-SUFFIX,netflix.net,GlobalMedia
 - DOMAIN-SUFFIX,nflxext.com,GlobalMedia
@@ -698,6 +699,7 @@ Rule:
 - DOMAIN-SUFFIX,pbs.org,GlobalMedia
 # > Pornhub
 - DOMAIN-SUFFIX,phncdn.com,GlobalMedia
+- DOMAIN-SUFFIX,phprcdn.com,GlobalMedia
 - DOMAIN-SUFFIX,pornhub.com,GlobalMedia
 - DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
 # > 台湾好
@@ -788,6 +790,7 @@ Rule:
 - DOMAIN-SUFFIX,telegra.ph,PROXY
 - DOMAIN-SUFFIX,telegram.me,PROXY
 - DOMAIN-SUFFIX,telegram.org,PROXY
+- DOMAIN-SUFFIX,telesco.pe,PROXY
 - IP-CIDR,91.108.4.0/22,PROXY,no-resolve
 - IP-CIDR,91.108.8.0/22,PROXY,no-resolve
 - IP-CIDR,91.108.12.0/22,PROXY,no-resolve
@@ -1080,6 +1083,7 @@ Rule:
 - DOMAIN-SUFFIX,wattpad.com,PROXY
 - DOMAIN-SUFFIX,whoer.net,PROXY
 - DOMAIN-SUFFIX,wikimapia.org,PROXY
+- DOMAIN-SUFFIX,wikimedia.org,PROXY
 - DOMAIN-SUFFIX,wikipedia.org,PROXY
 - DOMAIN-SUFFIX,wikiquote.org,PROXY
 - DOMAIN-SUFFIX,wikiwand.com,PROXY
@@ -1674,6 +1678,7 @@ Rule:
 - DOMAIN-SUFFIX,zhuihd.com,DIRECT
 - DOMAIN,download.jetbrains.com,DIRECT
 - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+- DOMAIN,cdn.angruo.com,DIRECT
 
 # > Apple
 - DOMAIN-SUFFIX,aaplimg.com,Apple
